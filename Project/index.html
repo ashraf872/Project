@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Ashraf's Protfolio</title>
-  <!--  <link rel="stylesheet" type="text/css" href="css/style.css">-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
     <!--navigation-->
-    <nav class="new-nav">
+    <nav>
      <ul>
         <li><a href="#home">home</a></li>
         <li><a href ="#about">about</a></li>
         <li><a href ="#work">work</a></li>
         <li><a href ="#resume">resume</a></li>
         <li><a href ="#contact">contact</a></li>
+       <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
     </ul>
     </nav>
     <!--main-->
     <main>
         <!--section1-->
+        <iframe src="url" title="description"></iframe>
+
             <section>
-                    <div><bold>Ashraf Ben Khemis</bold>
+                    <div class="firstdiv"><bold>Ashraf Ben Khemis</bold>
                     <p>I am 27 years old, I am a very highly motivated engineer.
                         I like being a full stack web developer.
                     </p></div>
-                    <div><image  src="images/ashraf.png" alt="ashraf"></image></div>
+                    <div><image  src="images/ashraf.png" class="image1"width="100" height="100" alt="ashraf"></image></div>
                     <div>
-                        <video width="640" height="320" controls>
-                            <source src="video/video1.mp4" type="video/mp4">
+                        <video controls>
+                            <source src="video/video1.mp4" class="video1" type="video/mp4">
                         </video>
                     </div>
             </section>
             <!--home-->
             <section  id="home">
                 <div>
-                   <p> Welcome to my home page.</p> 
+                   <p > Welcome to my home page.</p> 
                 </div>
 
             </section>
@@ -72,7 +76,7 @@
                          
                           </table>
 
-                            <p>My favorite web language is:</p>
+                            <p class="P2">My favorite web language is:</p>
 
                               <!--form-->
                         <form>
@@ -87,8 +91,9 @@
                             </form>
                         <p> Welcome</p>
                         <form>
-                            <input type="text" id="about" name="about" value="About">
                             <label for="about">about</label>
+                            <input type="text" id="about" name="about" value="About">
+                           
 
                             <input type="text" id="work" name="work" value="Work">
                             <label for="work">Work</label>
@@ -99,8 +104,14 @@
                         <input type="text" id="contact" name="contact" value="Contact">
                             <label for="contact">Contact</label>
 
+                            <label for="submit">Submit</label>
+                            <input type="submit" id="submit" name="submit" value="Submit">
+
                           </form>
-         
+         <dl> Welcome
+             <dt>Welcome</dt>
+             <dd>my friend</dd>
+             </dl>
 
             </section>
             <section id="contact">

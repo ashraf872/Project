@@ -1,0 +1,41 @@
+li{
+    display: inline;
+    font-style: robot;
+    color: yellow!important;
+    
+}
+nav{
+    background-color : grey;
+    color: yellow !important;
+}
+.firstdiv{
+    color: red;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image1{
+    width: 80%;
+    height: 80%;
+    border-radius:2em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.video1{
+    width: 60%;
+    height: 80%;
+    border: radius 2px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+body{
+    background-color : black;
+}
+p,tr,th,td,label{
+    color: white;
+    text-align: center;
+}
+.P2{
+    text-align: left;
+}
