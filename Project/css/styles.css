@@ -5,7 +5,7 @@ li{
     
 }
 nav{
-    background-color : grey;
+    background-color : white;
     color: yellow !important;
 }
 .firstdiv{
@@ -38,4 +38,7 @@ p,tr,th,td,label{
 }
 .P2{
     text-align: left;
+}
+.footer{
+    background-color : red;
 }
